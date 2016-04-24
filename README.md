@@ -24,6 +24,16 @@ Connect the reed switch acording to these schematics:
 
 [![diagram](https://www.pictshare.net/300/8c24794483.jpg)]((https://www.pictshare.net/store/8c24794483.jpg))
 
+The reed switch is activated by a magnet. You can glue the magnet to the door and put the sensor on the frame like this:
+[![reed switch on the door](https://www.pictshare.net/800/d87be2b65e.jpg)](https://www.pictshare.net/d87be2b65e.jpg)
+
+The reed switch only lets through the current when the magnet is close. If the door opens, the script will detect that and send a chat message
+[![reed switch on the open door](https://www.pictshare.net/800/5b7f93a10e.jpg)](https://www.pictshare.net/5b7f93a10e.jpg)
+
+You don't need a bread board or something like that, you can just solder the resistor to the reed switch directly and connect it to the Pi. The resistor is under the black shrink tube:
+[![reed switch on the open door](https://www.pictshare.net/800/4ded10545c.jpg)](https://www.pictshare.net/4ded10545c.jpg)
+
+
 ##### Step 1: Install php and the "gpio" command
 
 ```bash
