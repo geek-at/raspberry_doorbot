@@ -48,7 +48,7 @@ while(1)
 
 function sendRocket($message)
 {
-    $login = makeRequest(ROCKETCHAT_URL.'/api/login',array('password' => BOT_USERNAME, 'user' => BOT_USERNAME));
+    $login = makeRequest(ROCKETCHAT_URL.'/api/login',array('password' => BOT_PASSWORD, 'user' => BOT_USERNAME));
     $token = $login['data']['authToken'];
     $user = $login['data']['userId'];
 
